@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "MSVC Debugger",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            // **IMPORTANTE: Cambia a la configuración de Visual Studio**
+            "intelliSenseMode": "msvc-x64", 
+            
+            // **CRÍTICO: Ruta del compilador cl.exe de Visual Studio**
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\<VERSION>\\bin\\Hostx64\\x64\\cl.exe", 
+            
+            "cStandard": "c17",
+            "cppStandard": "c++17" 
+        }
+    ],
+    "version": 4
+}
